@@ -8,8 +8,8 @@
 // @homepageURL     https://github.com/ollm/IMDb-Image-Extractor
 // @icon         data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
 // @grant        none
-// @match        https://www.imdb.com/title/*/mediaviewer/*
-// @include         https://www.imdb.com/title/*/mediaviewer/*
+// @match        https://*.imdb.com/title/*/mediaviewer/*
+// @include         https://*.imdb.com/title/*/mediaviewer/*
 // @inject-into     content
 
 // ==/UserScript==
