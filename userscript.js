@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name            IMDb Image Extractor
 // @namespace    https://github.com/ollm/
-// @version      0.2
+// @version      0.2.1
 // @description  Displays links to easily extract individual images from IMDb
 // @author       ollm
 // @license         MIT
