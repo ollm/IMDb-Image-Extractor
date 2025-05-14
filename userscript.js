@@ -99,7 +99,14 @@
 			});
 		}
 
-		let html = sizesToHtml(pSizes)+' | '+sizesToHtml(sizes);
+		// original size (_V1_.jpg)
+		const originalSrc = image.src.replace(/(_V1)_.+\.jpg$/, '$1_.jpg');
+		let original = [{
+			text: 'Original',
+			src: originalSrc,
+		}];
+
+		let html = sizesToHtml(original) + ' | ' + sizesToHtml(pSizes) + ' | ' + sizesToHtml(sizes);
 
 		let imagesLinksList = document.querySelector('.imdbImagesLinksList');
 
